@@ -4,7 +4,7 @@
   "description": "cute image gallery",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "MONGODB_URI=mongodb://localhost/image-test mocha",
