@@ -81,9 +81,7 @@
 	
 	app.config(_routes2.default);
 	
-	var dev = process.env.API_URL || 'http://localhost:3000/api';
-	
-	app.value('apiUrl', dev);
+	app.value('apiUrl', process.env.API_URL || 'http://localhost:3000/api');
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
