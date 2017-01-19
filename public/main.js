@@ -79,7 +79,7 @@
 	// get components via index.js in components folder
 	
 	
-	app.value('apiUrl', ("/api"));
+	app.value('apiUrl', ("/api") || 'http://localhost:3000/api');
 	
 	app.config(_routes2.default);
 
